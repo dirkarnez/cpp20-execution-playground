@@ -1,7 +1,14 @@
 cpp20-execution-playground
 ==========================
 ### Concepts
-- std::execution policies use [Streaming SIMD Extensions](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions) functionality underneath
+- std::execution policies use [Single instruction, multiple data](https://en.wikipedia.org/wiki/Single_instruction,_multiple_data) functionality underneath
+    - for Windows, it uses xmm0-xmm7 registers
+        - [Streaming SIMD Extensions - Wikipedia](https://en.wikipedia.org/wiki/Streaming_SIMD_Extensions)
+    - for ARM, it uses NEON registers
+        - [Introducing NEON Development Article](https://developer.arm.com/documentation/dht0002/a/Introducing-NEON/NEON-architecture-overview/NEON-registers)
+    - Parallel STL may also used
+        - [llvm-project/pstl at main · llvm/llvm-project](https://github.com/llvm/llvm-project/tree/main/pstl)
+    
 - there are other implementation for the policies
 
 ### Notes 
