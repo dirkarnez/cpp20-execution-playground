@@ -17,6 +17,10 @@ cpp20-execution-playground
 - exception handling is different
 - vectorized execution vs parallel execution
 
+### TODOs
+- [ ] `std::future`
+- [ ] `std::execution`
+
 ### Sample Code
 - [modern-cpp-examples/main_accumulate_parallel.cpp at main · diehlpk/modern-cpp-examples · GitHub](https://github.com/diehlpk/modern-cpp-examples/blob/main/src/parallel_algorithms/main_accumulate_parallel.cpp)
 
