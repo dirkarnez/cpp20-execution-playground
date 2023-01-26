@@ -23,6 +23,7 @@ cpp20-execution-playground
 
 ### Sample Code
 - [modern-cpp-examples/main_accumulate_parallel.cpp at main · diehlpk/modern-cpp-examples · GitHub](https://github.com/diehlpk/modern-cpp-examples/blob/main/src/parallel_algorithms/main_accumulate_parallel.cpp)
+- [RTspice/circuit.cpp at master · thadeuluiz/RTspice](https://github.com/thadeuluiz/RTspice/blob/master/lib/circuit/src/circuit.cpp)
 
 ### Documentations
 - [Standard library header <execution> - cppreference.com](https://en.cppreference.com/w/cpp/header/execution)
